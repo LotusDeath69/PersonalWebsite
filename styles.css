@@ -219,3 +219,12 @@
 	color: #fff;
 	transition: all 0.3 ease;
 }
+
+.about_picture {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 35%;
+	padding-bottom: 50px;
+	
+}
