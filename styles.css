@@ -190,12 +190,11 @@
 	}
 }
 
-
 .about {
 	background: #131313;
 	padding: 50px;
-	padding-top: 250px;
-	padding-bottom: 500px;
+	padding-top: 150px;
+	padding-bottom: 200px;
 	display: flex;
 }
 
@@ -206,6 +205,9 @@
 
 .about_body_paragraph {
 	padding-top: 50px;
+	padding-left: 80px;
+	padding-right: 80px;
+	text-align: center;
 }
 
 .about_contact {
@@ -226,5 +228,16 @@
 	margin-right: auto;
 	width: 35%;
 	padding-bottom: 50px;
-	
+	filter: blur(8px);
+	transition: all 0.5s ease;
+}
+
+.about_picture:hover {
+	filter: blur(1px);
+	transition: all 0.5s ease;
+}
+
+.projects {
+	background: #fff;
+	padding-bottom: 500px;
 }
