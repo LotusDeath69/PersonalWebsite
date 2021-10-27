@@ -7,3 +7,7 @@ const mobileMenu = () => {
 }; 
 
 menu.addEventListener('click', mobileMenu);
+function myFunction() {
+    document.getElementById("popup").innerHTML = "Copied Discord Tag";
+    
+}

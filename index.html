@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/25e0994622.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- Nav Bar -->
     <nav class="navbar">
         <div class="navbar_container">
-            <a href="#about" id="navbar_logo">Home</a>
+            <a href="#about" id="navbar_logo"><i class="fas fa-home"></i></a>
             <div class="navbar_toggle" id="mobile-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -25,7 +26,7 @@
                     <a href="#projects" class="navbar_links" id="services-page">Projects</a>
                 </li>
                 <li class="navbar_item">
-                    <a href="resume.pdf" download class="navbar_links" id="resume-page">Resume</a>
+                    <a href="/Resources/resume.pdf" download class="navbar_links" id="resume-page">Resume</a>
                 </li>
                 <li class="navbar_btn">
                     <a href="#contact" class="button" id="contact">Contact</a>
@@ -35,7 +36,7 @@
     </nav>
     <div class="about" id="about">
         <div class="about_container">
-            <img src="Photo.jpeg" alt="Image of me" class="about_picture">
+            <img src="/Resources/Photo.jpeg" alt="Image of me" class="about_picture">
             <h2 class="about_body_paragraph">Hey there, I'm Tri, the creator of this website. I love coding, reading, photography/photo editing and ice skating. Don't hestiate to <a href="#contact" class="about_contact">reach out</a> if you have any questions!</h2>
         </div>
     </div>
@@ -60,10 +61,17 @@
             </div> -->
         </div>
     </div>
-
-    <div class="resume" id="resume">
-
-    </div>
+    <footer>
+        <div class="footer-content">
+            <h3 class="footer-contact">Contact</h3>
+            <h2 id="popup"></h2>
+            <ul class="socials">
+                <li><button onclick="myFunction()" class="discord_btn"><i class="fab fa-discord"></i></button></li>
+                <li><a href="https://www.instagram.com/trihoang17/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="mailto:Hoangtantri17@gmail.com"><i class="fa fa-envelope-open"></i></a></li>
+            </ul>
+        </div>
+    </footer>
     <script src="apps.js"></script>
 </body>
 </html>
