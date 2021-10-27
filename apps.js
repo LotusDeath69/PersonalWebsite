@@ -11,3 +11,4 @@ function myFunction() {
     document.getElementById("popup").innerHTML = "Copied Discord Tag";
     
 }
+
