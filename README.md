@@ -3,4 +3,4 @@
 - Unzip file
 - Click on index.html
 
-No dependencies Required
+No dependencies required
