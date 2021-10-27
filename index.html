@@ -11,7 +11,7 @@
     <!-- Nav Bar -->
     <nav class="navbar">
         <div class="navbar_container">
-            <a href="#About" id="navbar_logo">Home</a>
+            <a href="#about" id="navbar_logo">Home</a>
             <div class="navbar_toggle" id="mobile-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -19,13 +19,13 @@
             </div>
             <ul class="navbar_menu">
                 <li class="navbar_item">
-                    <a href="#About" class="navbar_links" id="About">About</a>
+                    <a href="#about" class="navbar_links" id="About">About</a>
                 </li>
                 <li class="navbar_item">
-                    <a href="#Projects" class="navbar_links" id="services-page">Projects</a>
+                    <a href="#projects" class="navbar_links" id="services-page">Projects</a>
                 </li>
                 <li class="navbar_item">
-                    <a href="#Resume" class="navbar_links" id="resume-page">Resume</a>
+                    <a href="resume.pdf" download class="navbar_links" id="resume-page">Resume</a>
                 </li>
                 <li class="navbar_btn">
                     <a href="#contact" class="button" id="contact">Contact</a>
@@ -33,17 +33,36 @@
             </ul>
         </div>
     </nav>
-    <div class="about" id="About">
+    <div class="about" id="about">
         <div class="about_container">
             <img src="Photo.jpeg" alt="Image of me" class="about_picture">
             <h2 class="about_body_paragraph">Hey there, I'm Tri, the creator of this website. I love coding, reading, photography/photo editing and ice skating. Don't hestiate to <a href="#contact" class="about_contact">reach out</a> if you have any questions!</h2>
         </div>
     </div>
 
-    <div class="projects" id="Projects">
-        <div class="projects_container">
-
+    <div class="projects" id="projects">
+        <h1>My projects</h1>
+        <div class="projects_wrapper">
+            <div class="project_card">
+                <h2>Banana Bot</h2>
+                <p>-Custom discord bot <br>-API integrated <br>-Customized command <br>-Ticket system <br></p>
+                <div class="project_btn"><a href="https://github.com/LotusDeath69/BananaBot"  target="_blank"><button>Source Code</button></a></div>
+            </div>
+            <div class="project_card">
+                <h2>Personal Website</h2>
+                <p>-Visually appealing <br>-The src of this website</p>
+                <div class="project_btn"><a href="https://github.com/LotusDeath69/PersonalWebsite"  target="_blank"><button>Source Code</button></a></div>
+            </div>
+            <!-- <div class="project_card">
+                <h2>lorum</h2>
+                <p>lorum</p>
+                <div class="project_btn"><button>Source Code</button></div>
+            </div> -->
         </div>
+    </div>
+
+    <div class="resume" id="resume">
+
     </div>
     <script src="apps.js"></script>
 </body>
