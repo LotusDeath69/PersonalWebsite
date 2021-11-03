@@ -97,11 +97,10 @@
 	transition: all 0.3s ease;
 }
 
-.contact#contact:hover {
-	color: #fff;
-	transition: 0.3s ease;
+#contact:hover {
+	background: #9518fc;
+	transition: 3s ease;
 }
-
 
 @media screen and (max-width: 960px) {
 	 .navbar_container {
